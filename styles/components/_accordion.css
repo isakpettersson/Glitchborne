@@ -1,0 +1,106 @@
+.accordion {
+}
+
+.accordion__header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.accordion__header p,
+.accordion__header small,
+.accordion__header a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.accordion__icon {
+    transition: transform 0.2s ease;
+}
+
+.accordion__body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out, padding 0.2s ease-out;
+}
+.accordion--open .accordion__icon {
+    transform: rotate(90deg);
+}
+
+.menu-pane__accordion {
+    border-bottom: var(--color-light) 1px solid;
+}
+
+.menu-pane__accordion .accordion__header {
+    padding: var(--spacing-4);
+}
+
+.menu-pane__accordion .accordion__content {
+    gap: 8px;
+    padding: 0 var(--spacing-4) var(--spacing-4);
+}
+
+.menu-pane__accordion .accordion__link {
+    font-size: var(--font-size-h5);
+    font-weight: bold;
+}
+
+.product__accordion.accordion--open .accordion__title {
+}
+
+.product__accordion {
+    font-size: 12px;
+    border-bottom: var(--color-light) 1px solid;
+}
+
+.product__accordion .accordion__title {
+    /* font-size: var(--font-size-body); */
+    /* text-decoration: underline; */
+}
+
+.product__accordion .accordion__header {
+    padding: 16px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.product__accordion .accordion__content p {
+    line-height: 1.2;
+}
+
+.product__accordion .accordion__content {
+    padding-bottom: 16px;
+}
+
+.product__accordion .accordion__icon {
+}
+.info__accordion {
+    font-size: var(--font-size-small);
+    border-bottom: var(--color-light) 1px solid;
+}
+
+.info__accordion .accordion__header {
+    padding: 16px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.info__accordion .accordion__content {
+    padding-bottom: 16px;
+}
+
+.accordion__content p {
+    font-size: 12px;
+    line-height: 1.4;
+}
+.accordion__content ul {
+    padding-left: 24px;
+    list-style: initial;
+    line-height: 1.4;
+}
+
+.accordion__content ul li {
+    font-size: 12px;
+    line-height: 1.4;
+}

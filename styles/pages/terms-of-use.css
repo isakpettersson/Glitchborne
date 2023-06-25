@@ -1,0 +1,36 @@
+.info {
+    position: relative;
+    padding: 40px;
+}
+
+.info__details {
+    gap: var(--spacing-4);
+}
+
+.info__details p {
+    font-size: 12px;
+}
+.info__title {
+    text-transform: uppercase;
+}
+
+.info__accordion-wrapper {
+    border-top: var(--color-light) 1px solid;
+}
+
+.info__accordion-container {
+    border-top: var(--color-light) 1px solid;
+}
+.accordion__content p {
+    font-size: 12px;
+    line-height: 1.4;
+}
+.accordion__content ul {
+    padding-left: 24px;
+    list-style: initial;
+    line-height: 1.4;
+}
+
+.accordion__content ul li {
+    line-height: 1.4;
+}

@@ -1,0 +1,32 @@
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: var(--z-index-highest);
+    cursor: pointer;
+}
+
+.cart-pane {
+    position: fixed;
+    height: 100%;
+    width: 0px;
+    top: 0;
+    right: 0;
+    background-color: var(--color-white);
+    overflow: hidden;
+    transition: 0.5s;
+    z-index: var(--z-index-highest);
+    border-left: var(--color-light) 1px solid;
+}
+
+.cart-pane__top-bar {
+    justify-content: space-between;
+    padding: var(--spacing-3) var(--spacing-4);
+    border-bottom: var(--color-light) 1px solid;
+}

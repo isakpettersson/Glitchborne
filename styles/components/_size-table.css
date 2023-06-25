@@ -1,0 +1,31 @@
+.size-table {
+    text-align: start;
+    font-size: var(--font-size-small);
+    width: 100%;
+    border-collapse: collapse;
+    border-bottom: 1px solid var(--color-light);
+}
+
+.size-table th {
+    text-align: start;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.size-table td {
+    opacity: 0.7;
+}
+
+.size-table th,
+.size-table td {
+    padding: 12px 12px 12px 0;
+}
+
+.size-table__row-title {
+    font-weight: bold;
+    opacity: 1;
+}
+
+.size-table tr:not(:last-child) {
+    border-bottom: 1px solid var(--color-light);
+}

@@ -1,0 +1,1662 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Signature Digital Diva Tee",
+            "color": "white",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-digital-diva-tee-front.png",
+                "../assets/images/products/signature-digital-diva-tee-back.png",
+                "../assets/images/products/signature-digital-diva-tee-close.png",
+                "../assets/images/products/signature-digital-diva-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 2,
+            "name": "Signature Essential Tee",
+            "color": "white",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-tee-white-front.png",
+                "../assets/images/products/signature-essential-tee-white-back.png",
+                "../assets/images/products/signature-essential-tee-white-close.png",
+                "../assets/images/products/signature-essential-tee-white-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 3,
+            "name": "Signature Essential Tee",
+            "color": "orange",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-tee-orange-front.png",
+                "../assets/images/products/signature-essential-tee-orange-back.png",
+                "../assets/images/products/signature-essential-tee-orange-close.png",
+                "../assets/images/products/signature-essential-tee-orange-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 3,
+            "name": "Signature Essential Tee",
+            "color": "black",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-tee-black-front.png",
+                "../assets/images/products/signature-essential-tee-black-back.png",
+                "../assets/images/products/signature-essential-tee-black-close.png",
+                "../assets/images/products/signature-essential-tee-black-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 4,
+            "name": "Signature Essential Tee",
+            "color": "blue",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-tee-blue-front.png",
+                "../assets/images/products/signature-essential-tee-blue-back.png",
+                "../assets/images/products/signature-essential-tee-blue-close.png",
+                "../assets/images/products/signature-essential-tee-blue-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 5,
+            "name": "Signature Essential Tee",
+            "color": "red",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-tee-red-front.png",
+                "../assets/images/products/signature-essential-tee-red-back.png",
+                "../assets/images/products/signature-essential-tee-red-close.png",
+                "../assets/images/products/signature-essential-tee-red-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 6,
+            "name": "Signature Established Tee",
+            "color": "black",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-established-tee-front.png",
+                "../assets/images/products/signature-established-tee-back.png",
+                "../assets/images/products/signature-established-tee-close.png",
+                "../assets/images/products/signature-stablished-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 7,
+            "name": "Signature Hollow Diva Tee",
+            "color": "black",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-hollow-diva-black-tee-front.png",
+                "../assets/images/products/signature-hollow-diva-black-tee-back.png",
+                "../assets/images/products/signature-hollow-diva-black-tee-close.png",
+                "../assets/images/products/signature-hollow-diva-black-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 8,
+            "name": "Signature Hollow Diva Tee",
+            "color": "orange",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-hollow-diva-orange-tee-front.png",
+                "../assets/images/products/signature-hollow-diva-orange-tee-back.png",
+                "../assets/images/products/signature-hollow-diva-orange-tee-close.png",
+                "../assets/images/products/signature-hollow-diva-orange-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 9,
+            "name": "Peach Tee",
+            "color": "black",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-peach-tee-front.png",
+                "../assets/images/products/signature-peach-tee-back.png",
+                "../assets/images/products/signature-peach-tee-close.png",
+                "../assets/images/products/signature-peach-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 10,
+            "name": "Pink Nails Tee",
+            "color": "black",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-pink-nails-tee-front.png",
+                "../assets/images/products/signature-pink-nails-tee-back.png",
+                "../assets/images/products/signature-pink-nails-tee-close.png",
+                "../assets/images/products/signature-pink-nails-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 11,
+            "name": "Signature Groove Tee",
+            "color": "orange",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-groove-orange-tee-front.png",
+                "../assets/images/products/signature-groove-orange-tee-back.png",
+                "../assets/images/products/signature-groove-orange-tee-close.png",
+                "../assets/images/products/signature-groove-orange-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 12,
+            "name": "Signature Groove Tee",
+            "color": "blue",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-groove-blue-tee-front.png",
+                "../assets/images/products/signature-groove-blue-tee-back.png",
+                "../assets/images/products/signature-groove-blue-tee-close.png",
+                "../assets/images/products/signature-groove-blue-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 13,
+            "name": "Signature Groove Tee",
+            "color": "red",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-groove-red-tee-front.png",
+                "../assets/images/products/signature-groove-red-tee-back.png",
+                "../assets/images/products/signature-groove-red-tee-close.png",
+                "../assets/images/products/signature-groove-red-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 14,
+            "name": "Summer Banana Tee",
+            "color": "white",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "summer-2023",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/summer-banana-tee-front.png",
+                "../assets/images/products/summer-banana-tee-back.png",
+                "../assets/images/products/summer-banana-tee-close.png",
+                "../assets/images/products/summer-banana-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 15,
+            "name": "Summer Cassette Tape Tee",
+            "color": "white",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "summer-2023",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/summer-cassette-tape-tee-front.png",
+                "../assets/images/products/summer-cassette-tape-tee-back.png",
+                "../assets/images/products/summer-cassette-tape-tee-close.png",
+                "../assets/images/products/summer-cassette-tape-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 16,
+            "name": "Summer Boombox Tee",
+            "color": "white",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "summer-2023",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/summer-boombox-tee-front.png",
+                "../assets/images/products/summer-boombox-tee-back.png",
+                "../assets/images/products/summer-boombox-tee-close.png",
+                "../assets/images/products/summer-boombox-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+
+        {
+            "id": 17,
+            "name": "Summer Icecream Tee",
+            "color": "purple",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "summer-2023",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/summer-icecream-tee-front.png",
+                "../assets/images/products/summer-icecream-tee-back.png",
+                "../assets/images/products/summer-icecream-tee-close.png",
+                "../assets/images/products/summer-icecream-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 18,
+            "name": "Two Dreams Tee",
+            "color": "white",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "summer-2023",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/two-dreams-tee-front.png",
+                "../assets/images/products/two-dreams-tee-back.png",
+                "../assets/images/products/two-dreams-tee-close.png",
+                "../assets/images/products/two-dreams-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 18,
+            "name": "The World War Tee",
+            "color": "green",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "summer-2023",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/the-world-war-tee-front.png",
+                "../assets/images/products/the-world-war-tee-back.png",
+                "../assets/images/products/the-world-war-tee-close.png",
+                "../assets/images/products/the-world-war-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 19,
+            "name": "Zestiest Vibes Tee",
+            "color": "black",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "summer-2023",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/zestiest-vibes-tee-front.png",
+                "../assets/images/products/zestiest-vibes-tee-back.png",
+                "../assets/images/products/zestiest-vibes-tee-close.png",
+                "../assets/images/products/zestiest-vibes-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 20,
+            "name": "The Cosmic Dude Tee",
+            "color": "black",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "cosmic",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/cosmic-dude-tee-front.png",
+                "../assets/images/products/cosmic-dude-tee-back.png",
+                "../assets/images/products/cosmic-dude-tee-close.png",
+                "../assets/images/products/cosmic-dude-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 21,
+            "name": "Peaceful Alien Tee",
+            "color": "white",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "cosmic",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/peaceful-alien-tee-front.png",
+                "../assets/images/products/peaceful-alien-tee-back.png",
+                "../assets/images/products/peaceful-alien-tee-close.png",
+                "../assets/images/products/peaceful-alien-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 22,
+            "name": "Bucket Hat Alien Tee",
+            "color": "white",
+            "description": "Short-sleeve, crewneck tee with screenprinted graphics.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "cosmic",
+            "category": "tees",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/bucket-hat-alien-tee-front.png",
+                "../assets/images/products/bucket-hat-alien-tee-back.png",
+                "../assets/images/products/bucket-hat-alien-tee-close.png",
+                "../assets/images/products/bucket-hat-alien-tee-sleeve.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Regular fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+
+        {
+            "id": 23,
+            "name": "Signature Essential Hoodie",
+            "color": "blue",
+            "description": "Long-sleeve, pullover hoodie with screenprinted graphics.",
+            "price": 1600,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "hoodies",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-blue-hoodie-front.png",
+                "../assets/images/products/signature-essential-blue-hoodie-back.png",
+                "../assets/images/products/signature-essential-blue-hoodie-close.png"
+            ],
+            "details": "<ul><li>Adjustable drawstring hood</li><li>Unisex style</li><li>Relaxed fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 24,
+            "name": "Signature Essential Hoodie",
+            "color": "white",
+            "description": "Short-sleeve crewneck hoodie with screenprinted graphics.",
+            "price": 1600,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "hoodies",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-white-hoodie-front.png",
+                "../assets/images/products/signature-essential-white-hoodie-back.png",
+                "../assets/images/products/signature-essential-white-hoodie-close.png"
+            ],
+            "details": "<ul><li>Adjustable drawstring hood</li><li>Unisex style</li><li>Relaxed fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 25,
+            "name": "Tropical Skull Hoodie",
+            "color": "red",
+            "description": "Short-sleeve crewneck hoodie with screenprinted graphics.",
+            "price": 1600,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "summer",
+            "category": "hoodies",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/tropical-skull-hoodie-front.png",
+                "../assets/images/products/tropical-skull-hoodie-back.png",
+                "../assets/images/products/tropical-skull-hoodie-close.png"
+            ],
+            "details": "<ul><li>Adjustable drawstring hood</li><li>Unisex style</li><li>Relaxed fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 26,
+            "name": "World Tour Hoodie",
+            "color": "black",
+            "description": "Short-sleeve crewneck hoodie with screenprinted graphics.",
+            "price": 1600,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "hoodies",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/world-tour-hoodie-front.png",
+                "../assets/images/products/world-tour-hoodie-back.png",
+                "../assets/images/products/world-tour-hoodie-close.png"
+            ],
+            "details": "<ul><li>Adjustable drawstring hood</li><li>Unisex style</li><li>Relaxed fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+
+        {
+            "id": 28,
+            "name": "Boulevard Beats Hoodie",
+            "color": "white",
+            "description": "Short-sleeve crewneck hoodie with screenprinted graphics.",
+            "price": 1600,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "hoodies",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/boulevard-beats-hoodie-front.png",
+                "../assets/images/products/boulevard-beats-hoodie-back.png",
+                "../assets/images/products/boulevard-beats-hoodie-close.png"
+            ],
+            "details": "<ul><li>Adjustable drawstring hood</li><li>Unisex style</li><li>Relaxed fit</li><li>Made from 100% organic cotton</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 29,
+            "name": "Evil Alien Sweatshirt",
+            "color": "green",
+            "description": "Crewneck sweatshirt with regular fit and intricate stitch detailing.",
+            "price": 1400,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "cosmic",
+            "category": "sweatshirts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/evil-alien-sweatshirt-front.png",
+                "../assets/images/products/evil-alien-sweatshirt-close.png"
+            ],
+            "details": "<ul><li>Flexible ribbed cufs and hem</li><li>Unisex style</li><li>Crafted from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 30,
+            "name": "Signature Essential Sweatshirt",
+            "color": "brown",
+            "description": "Crewneck sweatshirt with regular fit and intricate stitch detailing.",
+            "price": 1400,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "sweatshirts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-brown-sweatshirt-front.png",
+                "../assets/images/products/signature-essential-brown-sweatshirt-close.png"
+            ],
+            "details": "<ul><li>Flexible ribbed cufs and hem</li><li>Unisex style</li><li>Crafted from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 31,
+            "name": "Signature Essential Sweatshirt",
+            "color": "white",
+            "description": "Crewneck sweatshirt with regular fit and intricate stitch detailing.",
+            "price": 1400,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "sweatshirts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-white-sweatshirt-front.png",
+                "../assets/images/products/signature-essential-white-sweatshirt-close.png"
+            ],
+            "details": "<ul><li>Flexible ribbed cufs and hem</li><li>Unisex style</li><li>Crafted from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 32,
+            "name": "Tropical Skull Sweatshirt",
+            "color": "red",
+            "description": "Crewneck sweatshirt with regular fit and intricate stitch detailing.",
+            "price": 1400,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "",
+            "category": "sweatshirts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/tropical-skull-sweatshirt-front.png",
+                "../assets/images/products/tropical-skull-sweatshirt-close.png"
+            ],
+            "details": "<ul><li>Flexible ribbed cufs and hem</li><li>Unisex style</li><li>Crafted from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 33,
+            "name": "Two Dreams Button-Up Shirt",
+            "color": "black",
+            "description": "Collared long-sleeve shirt with a regular fit and fine button detailing",
+            "price": 1200,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "shirts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/two-dreams-button-up-shirt-back.png",
+                "../assets/images/products/two-dreams-button-up-shirt-close.png"
+            ],
+            "details": "<ul><li>Adjustable buttoned cuffs</li><li>Unisex style</li><li>Made from a blend of 70% sustainable cotton and 30% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 34,
+            "name": "The World War Button-Up Shirt",
+            "color": "black",
+            "description": "Collared long-sleeve shirt with a regular fit and fine button detailing",
+            "price": 1200,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "shirts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/world-war-button-up-shirt-back.png",
+                "../assets/images/products/world-war-button-up-shirt-close.png"
+            ],
+            "details": "<ul><li>Adjustable buttoned cuffs</li><li>Unisex style</li><li>Made from a blend of 70% sustainable cotton and 30% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 35,
+            "name": "Red Nails Button-Up Shirt",
+            "color": "red",
+            "description": "Collared long-sleeve shirt with a regular fit and fine button detailing",
+            "price": 1200,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "shirts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/red-nails-button-shirt-back.png",
+                "../assets/images/products/red-nails-button-shirt-close.png"
+            ],
+            "details": "<ul><li>Adjustable buttoned cuffs</li><li>Unisex style</li><li>Made from a blend of 70% sustainable cotton and 30% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 36,
+            "name": "Peach Button Shirt",
+            "color": "yellow",
+            "description": "Collared long-sleeve shirt with a regular fit and fine button detailing",
+            "price": 1200,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "shirts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/peach-button-shirt-back.png",
+                "../assets/images/products/peach-button-shirt-close.png"
+            ],
+            "details": "<ul><li>Adjustable buttoned cuffs</li><li>Unisex style</li><li>Made from a blend of 70% sustainable cotton and 30% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 37,
+            "name": "Signature Basics Shorts",
+            "color": "black",
+            "description": "Soft, relaxed-fit sweatshorts with drawstring waistband.",
+            "price": 600,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "shorts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/black-shorts.png"],
+            "details": "<ul><li>Elastic waistband with adjustable drawstring</li><li>Unisex style</li><li>Made from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 38,
+            "name": "Signature Basics Shorts",
+            "color": "purple",
+            "description": "Soft, relaxed-fit sweatshorts with drawstring waistband.",
+            "price": 600,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "shorts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/purple-shorts.png"],
+            "details": "<ul><li>Elastic waistband with adjustable drawstring</li><li>Unisex style</li><li>Made from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 39,
+            "name": "Signature Basics Shorts",
+            "color": "yellow",
+            "description": "Soft, relaxed-fit sweatshorts with drawstring waistband.",
+            "price": 600,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "shorts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/yellow-shorts.png"],
+            "details": "<ul><li>Elastic waistband with adjustable drawstring</li><li>Unisex style</li><li>Made from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 40,
+            "name": "Signature Basics Shorts",
+            "color": "white",
+            "description": "Soft, relaxed-fit sweatshorts with drawstring waistband.",
+            "price": 600,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "signature",
+            "category": "shorts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/white-shorts.png"],
+            "details": "<ul><li>Elastic waistband with adjustable drawstring</li><li>Unisex style</li><li>Made from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 41,
+            "name": "Signature Basics Sweatpants",
+            "color": "white",
+            "description": "Comfy, relaxed-fit sweatpants with adjustable drawstring waistband.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "pants",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-basics-white-sweatpants.png"
+            ],
+            "details": "<ul><li>Elastic waistband with an adjustable drawstring</li><li>Unisex design</li><li>Made from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Sourced globally</li></ul>"
+        },
+        {
+            "id": 42,
+            "name": "Signature Basics Sweatpants",
+            "color": "black",
+            "description": "Comfy, relaxed-fit sweatpants with adjustable drawstring waistband.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "pants",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-basics-black-sweatpants.png"
+            ],
+            "details": "<ul><li>Elastic waistband with an adjustable drawstring</li><li>Unisex design</li><li>Made from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Sourced globally</li></ul>"
+        },
+        {
+            "id": 43,
+            "name": "Signature Basics Sweatpants",
+            "color": "purple",
+            "description": "Comfy, relaxed-fit sweatpants with adjustable drawstring waistband.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "pants",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-basics-purple-sweatpants.png"
+            ],
+            "details": "<ul><li>Elastic waistband with an adjustable drawstring</li><li>Unisex design</li><li>Made from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Sourced globally</li></ul>"
+        },
+        {
+            "id": 44,
+            "name": "Signature Basics Sweatpants",
+            "color": "grey",
+            "description": "Comfy, relaxed-fit sweatpants with adjustable drawstring waistband.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "pants",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-basics-grey-sweatpants.png"
+            ],
+            "details": "<ul><li>Elastic waistband with an adjustable drawstring</li><li>Unisex design</li><li>Made from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Sourced globally</li></ul>"
+        },
+        {
+            "id": 45,
+            "name": "Camo Comfort Sweatpants",
+            "color": "green",
+            "description": "Comfy, relaxed-fit sweatpants with adjustable drawstring waistband.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "pants",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/camo-comfort-sweatpants.png"],
+            "details": "<ul><li>Elastic waistband with an adjustable drawstring</li><li>Unisex design</li><li>Made from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Sourced globally</li></ul>"
+        },
+        {
+            "id": 46,
+            "name": "Sunny Smiles Sweatpants",
+            "color": "yellow",
+            "description": "6-panel snapback hat in one size with intricate embroidered detail.",
+            "price": 800,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "summer-2023",
+            "category": "pants",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/sunny-smiles-sweatpants.png"],
+            "details": "<ul><li>Elastic waistband with an adjustable drawstring</li><li>Unisex design</li><li>Made from a blend of 80% eco-friendly cotton and 20% polyester</li><li>Sourced globally</li></ul>"
+        },
+
+        {
+            "id": 47,
+            "name": "Signature Hollow Diva Snapback",
+            "color": "black",
+            "description": "One-size, 6-panel snapback hat with intricate embroidered detail and adjustable strap.",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-hollow-diva-black-snapback-front.png",
+                "../assets/images/products/signature-hollow-diva-black-snapback-side.png"
+            ],
+            "details": "<ul><li>Embroidered</li><li>Fixed size</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 48,
+            "name": "Signature Hollow Diva Snapback",
+            "color": "orange",
+            "description": "One-size, 6-panel snapback hat with intricate embroidered detail and adjustable strap.",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-hollow-diva-orange-snapback-front.png",
+                "../assets/images/products/signature-hollow-diva-orange-snapback-side.png"
+            ],
+            "details": "<ul><li>Embroidered</li><li>Fixed size</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 49,
+            "name": "Signature Hollow Diva Snapback",
+            "color": "red",
+            "description": "One-size, 6-panel snapback hat with intricate embroidered detail and adjustable strap.",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-hollow-diva-red-snapback-front.png",
+                "../assets/images/products/signature-hollow-diva-red-snapback-side.png"
+            ],
+            "details": "<ul><li>Embroidered</li><li>Fixed size</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 50,
+            "name": "Signature Essential Snapback",
+            "color": "purple",
+            "description": "One-size, 6-panel snapback hat with intricate embroidered detail and adjustable strap.",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-purple-snapback-front.png",
+                "../assets/images/products/signature-essential-purple-snapback-side.png"
+            ],
+            "details": "<ul><li>Embroidered</li><li>Fixed size</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 51,
+            "name": "Signature Essential Snapback",
+            "color": "blue",
+            "description": "One-size, 6-panel snapback hat with intricate embroidered detail and adjustable strap.",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-blue-snapback-front.png",
+                "../assets/images/products/signature-essential-blue-snapback-side.png"
+            ],
+            "details": "<ul><li>Embroidered</li><li>Fixed size</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 52,
+            "name": "Signature Essential Snapback",
+            "color": "green",
+            "description": "One-size, 6-panel snapback hat with intricate embroidered detail and adjustable strap.",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-green-snapback-front.png",
+                "../assets/images/products/signature-essential-green-snapback-side.png"
+            ],
+            "details": "<ul><li>Embroidered</li><li>Fixed size</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 53,
+            "name": "Signature Essential Snapback",
+            "color": "white",
+            "description": "One-size, 6-panel snapback hat with intricate embroidered detail and adjustable strap.",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-white-snapback-front.png",
+                "../assets/images/products/signature-essential-white-snapback-side.png"
+            ],
+            "details": "<ul><li>Embroidered</li><li>Fixed size</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 54,
+            "name": "Summer Banana Snapback",
+            "color": "white",
+            "description": "One-size, 6-panel snapback hat with intricate embroidered detail and adjustable strap.",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/summer-banana-snapback-front.png",
+                "../assets/images/products/summer-banana-snapback-side.png"
+            ],
+            "details": "<ul><li>Embroidered</li><li>Fixed size</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 55,
+            "name": "Tropical Skull Snapback",
+            "color": "blue",
+            "description": "One-size, 6-panel snapback hat with intricate embroidered detail and adjustable strap.",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/tropical-skull-snapback-front.png",
+                "../assets/images/products/tropical-skull-snapback-side.png"
+            ],
+            "details": "<ul><li>Embroidered</li><li>Fixed size</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 56,
+            "name": "Signature Essential 5-Panel Hat",
+            "color": "red",
+            "description": "Adjustable 5-panel hat",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-red-5-panel-hat-front.png",
+                "../assets/images/products/signature-essential-red-5-panel-hat-side.png"
+            ],
+            "details": "<ul><li>Reinforced stitching</li><li>Adjustable strap</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 57,
+            "name": "Signature Essential 5-Panel Hat",
+            "color": "white",
+            "description": "Adjustable 5-panel hat",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-white-5-panel-hat-front.png",
+                "../assets/images/products/signature-essential-whtie-5-panel-hat-side.png"
+            ],
+            "details": "<ul><li>Reinforced stitching</li><li>Adjustable strap</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 58,
+            "name": "Signature Essential 5-Panel Hat",
+            "color": "orange",
+            "description": "Adjustable 5-panel hat",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-essential-orange-5-panel-hat-front.png",
+                "../assets/images/products/signature-essential-orange-5-panel-hat-side.png"
+            ],
+            "details": "<ul><li>Reinforced stitching</li><li>Adjustable strap</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 59,
+            "name": "Signature Basics Bucket Hat",
+            "color": "white",
+            "description": "Simple bucket hat with classic design.",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-basics-white-bucket-hat-front.png",
+                "../assets/images/products/signature-basics-white-bucket-hat-top.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 60,
+            "name": "Signature Basics Bucket Hat",
+            "color": "blue",
+            "description": "Simple bucket hat with classic design.",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/signature-basics-blue-bucket-hat-front.png",
+                "../assets/images/products/signature-basics-blue-bucket-hat-top.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 61,
+            "name": "Camo Bucket Hat",
+            "color": "green",
+            "description": "Simple bucket hat with classic design.",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/camo-bucket-hat-front.png",
+                "../assets/images/products/camo-bucket-hat-top.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 62,
+            "name": "Sunny Smiles Bucket Hat",
+            "color": "yellow",
+            "description": "Summer bucket hat with classic design.",
+            "price": 450,
+            "sizes": {
+                "52cm": true,
+                "54cm": true,
+                "56cm": true,
+                "58cm": true,
+                "60cm": true
+            },
+            "collection": "signature",
+            "category": "hats",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/sunny-smiles-bucket-hat-front.png",
+                "../assets/images/products/sunny-smiles-bucket-hat-top.png"
+            ],
+            "details": "<ul><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 63,
+            "name": "Cosmos Socks",
+            "color": "black",
+            "description": "Comfortable, breathable socks, ideal for daily wear.",
+            "price": 450,
+            "sizes": {
+                "36-38": true,
+                "39-41": true,
+                "42-44": true,
+                "45-47": true
+            },
+            "collection": "cosmos",
+            "category": "socks",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/cosmic-socks.png"],
+            "details": "<ul><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 64,
+            "name": "Cosmic Cat Socks",
+            "color": "green",
+            "description": "Comfortable, breathable socks, ideal for daily wear.",
+            "price": 450,
+            "sizes": {
+                "36-38": true,
+                "39-41": true,
+                "42-44": true,
+                "45-47": true
+            },
+            "collection": "cosmic",
+            "category": "socks",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/cosmic-cat-socks.png"],
+            "details": "<ul><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 65,
+            "name": "Sunny Socks",
+            "color": "orange",
+            "description": "Comfortable, breathable socks, ideal for daily wear.",
+            "price": 450,
+            "sizes": {
+                "36-38": true,
+                "39-41": true,
+                "42-44": true,
+                "45-47": true
+            },
+            "collection": "summer-2023",
+            "category": "socks",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/sunny-socks.png"],
+            "details": "<ul><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 66,
+            "name": "Back Pack",
+            "color": "black",
+            "description": "Durable and spacious backpack, ideal for everyday use or travel.",
+            "price": 450,
+
+            "collection": "spring-2023",
+            "category": "bags",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": [
+                "../assets/images/products/back-pack-front.png",
+                "../assets/images/products/back-pack-back.png"
+            ],
+            "details": "<ul><li>Adjustable</li><li>Made from durable polyester material</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 67,
+            "name": "Essential Polo",
+            "color": "white",
+            "description": "Classic and comfortable polo shirt.",
+            "price": 1200,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "shirts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/essential-white-polo.png"],
+            "details": "<ul><li>Relaxed fit</li><li>Traditional collar with button placket</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 68,
+            "name": "Essential Polo",
+            "color": "black",
+            "description": "Classic and comfortable polo shirt.",
+            "price": 1200,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "shirts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/essential-black-polo.png"],
+            "details": "<ul><li>Relaxed fit</li><li>Traditional collar with button placket</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 69,
+            "name": "Essential Polo",
+            "color": "blue",
+            "description": "Classic and comfortable polo shirt.",
+            "price": 1200,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "shirts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/essential-blue-polo.png"],
+            "details": "<ul><li>Relaxed fit</li><li>Traditional collar with button placket</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 70,
+            "name": "Essential Polo",
+            "color": "purple",
+            "description": "Classic and comfortable polo shirt.",
+            "price": 1200,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "shirts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/essential-purple-polo.png"],
+            "details": "<ul><li>Relaxed fit</li><li>Traditional collar with button placket</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        },
+        {
+            "id": 71,
+            "name": "Essential Polo",
+            "color": "orange",
+            "description": "Classic and comfortable polo shirt.",
+            "price": 1200,
+            "sizes": {
+                "XS": true,
+                "S": true,
+                "M": true,
+                "L": true,
+                "XL": true
+            },
+            "collection": "spring-2023",
+            "category": "shirts",
+            "isSoldOut": false,
+            "isNew": true,
+            "images": ["../assets/images/products/essential-orange-polo.png"],
+            "details": "<ul><li>Relaxed fit</li><li>Traditional collar with button placket</li><li>Unisex style</li><li>Made from a blend of 80% cotton and 20% polyester</li><li>Imported</li></ul>"
+        }
+    ]
+}

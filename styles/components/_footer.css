@@ -1,0 +1,73 @@
+footer {
+    border-top: var(--color-light) 1px solid;
+
+    /* Centering when the container reaches max weidth */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Have to apply max-wdith to the footer container because otherwise the footer line will not fill the full width of the viewport */
+.footer__container {
+    padding: 40px;
+    width: 100%;
+}
+
+.footer__content {
+    gap: 40px;
+}
+
+.footer__link {
+    color: var(--color-text-inactive);
+    transition: color 0.2s ease-out;
+    align-self: flex-start;
+}
+
+.footer__link:hover {
+    color: var(--color-black);
+}
+
+.footer__section-content {
+    gap: 12px;
+}
+
+.footer__link--social {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.footer__payment-options {
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.footer__section--news {
+    text-align: end;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__content {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer__container {
+        padding: 24px;
+    }
+
+    .footer__section--information {
+        gap: 24px;
+        flex-direction: column;
+    }
+    .footer__payment-options {
+        justify-content: flex-start;
+    }
+
+    .footer__section--news {
+        text-align: start;
+    }
+}

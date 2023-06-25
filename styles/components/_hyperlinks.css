@@ -1,0 +1,11 @@
+.link-fade {
+    font-size: var(--font-size-navigation);
+    line-height: var(--line-height-navigation);
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: opacity 0.2s ease-out;
+}
+
+.link-fade:hover {
+    opacity: 0.5;
+}

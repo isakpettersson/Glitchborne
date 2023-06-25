@@ -1,0 +1,58 @@
+.login {
+    grid-gap: 0;
+}
+
+.login__form-heading {
+    text-transform: uppercase;
+}
+
+.login__container {
+    padding: 40px;
+    width: 100%;
+    gap: 16px;
+}
+
+.login__hero img {
+    aspect-ratio: 2/3;
+    object-fit: fill;
+}
+
+.login__links {
+    padding: 16px;
+    gap: 8px;
+}
+.login__links a {
+    opacity: 0.5;
+}
+
+.login__links a:hover {
+    opacity: 1;
+}
+
+.login__form input {
+    resize: vertical;
+
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 16px;
+    border: none;
+    font-size: 12px;
+    border-bottom: var(--color-light) 1px solid;
+}
+
+.login__form input:focus,
+.login__form textarea:focus {
+    outline: none;
+    border-bottom: var(--color-black) 1px solid;
+}
+
+.login__form input::placeholder,
+.login__form textarea::placeholder {
+    opacity: 0.7;
+}
+
+.contact__form-heading,
+.contact__info-heading {
+    text-transform: uppercase;
+}

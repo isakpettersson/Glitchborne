@@ -1,0 +1,23 @@
+.size-selector {
+    display: flex;
+    gap: 12px;
+}
+
+.size-selector__option {
+    display: none;
+}
+
+.size-selector__label {
+    cursor: pointer;
+}
+
+.size-selector__option:checked + .size-selector__label {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.size-selector__option:disabled + .size-selector__label {
+    text-decoration: line-through;
+    cursor: not-allowed;
+    opacity: 0.5;
+}

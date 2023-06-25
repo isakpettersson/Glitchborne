@@ -1,0 +1,93 @@
+.article {
+    text-align: center;
+    padding: var(--spacing-4);
+}
+
+.article__header {
+    max-width: 768px;
+    padding: var(--spacing-6);
+    gap: var(--spacing-4);
+}
+
+.article__container {
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-4);
+}
+
+.article__hero-image {
+    aspect-ratio: 3/2;
+    margin-bottom: var(--spacing-6);
+    object-fit: scale-down;
+}
+
+@media screen and (max-width: 480px) {
+}
+
+.article__image-grid {
+    grid-gap: var(--spacing-4);
+}
+
+.article__image-grid img {
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}
+
+.article__text {
+    max-width: 768px;
+    padding: 0 var(--spacing-6) var(--spacing-6);
+    gap: var(--spacing-6);
+}
+
+/* Exra grids so that it is more easy to dynamically generate different layouts when loading in the json files */
+.grid-col-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing-4);
+}
+
+.grid-col-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-4);
+}
+
+.grid-col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-4);
+}
+
+@media screen and (max-width: 1024px) {
+    .grid-col-4 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .grid-col-3 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .grid-col-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .grid-col-3,
+    .grid-col-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .article__hero-image {
+        aspect-ratio: unset;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .article h1 {
+        font-size: var(--font-size-h2);
+    }
+
+    .article__header {
+        padding: var(--spacing-4) var(--spacing-2);
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "articles": [
+        {
+            "id": 1,
+            "title": "Signature Collection: An Inside Glimpse",
+            "date": "2023/06/1",
+            "category": "Lookbook",
+            "heroImage": "./assets/images/mockups/signature-collection-image-hero.png",
+            "text": "Explore our Signature Collection in this lookbook article. These designs are clean and timeless, using our brand's core elements to create classic pieces. This collection is at the heart of what we represent, setting the tone for all our work.",
+            "images": [
+                "./assets/images/mockups/signature-collection-image-1.png",
+                "./assets/images/mockups/signature-collection-image-3.png",
+                "./assets/images/mockups/signature-collection-image-5.png",
+                "./assets/images/mockups/signature-collection-image-6.png",
+                "./assets/images/mockups/signature-collection-image-8.png",
+                "./assets/images/mockups/signature-collection-image-9.png",
+                "./assets/images/mockups/signature-collection-image-10.png",
+                "./assets/images/mockups/signature-collection-image-11.png"
+            ],
+            "metadata": {
+                "gridColumns": 2
+            }
+        },
+        {
+            "id": 2,
+            "title": "Spring Break '23 Collection: The First Drop Revealed",
+            "date": "2023/3/15",
+            "category": "Collection",
+            "heroImage": "./assets/images/mockups/spring-break-image-1.png",
+            "text": "Get ready for the new season with our Spring Break Drop from the Spring '23 Collection. This limited-time release is full of swimwear and other pieces perfect for the upbeat energy of spring break. Dive in to see what we've got in store!",
+
+            "images": [
+                "./assets/images/mockups/spring-break-image-2.png",
+                "./assets/images/mockups/spring-break-image-3.png",
+                "./assets/images/mockups/spring-break-image-4.png",
+                "./assets/images/mockups/spring-break-image-5.png",
+                "./assets/images/mockups/spring-break-image-6.png",
+                "./assets/images/mockups/spring-break-image-7.png",
+                "./assets/images/mockups/spring-break-image-8.png",
+                "./assets/images/mockups/spring-break-image-9.png"
+            ],
+            "metadata": {
+                "gridColumns": 3
+            }
+        },
+        {
+            "id": 3,
+            "title": "Snapshots from our Summer '23 Collection",
+            "date": "2023/4/20",
+            "category": "Preview",
+            "text": "Take a peek at our Summer '23 Collection with this collection of snapshots. Showing off a range of images that capture the spirit of our upcoming collection. Get a sense of the summer vibes we'll be bringing to our fashion line.",
+            "images": [
+                "./assets/images/mockups/summer-snapchats-image-1.jpg",
+                "./assets/images/mockups/summer-snapchats-image-2.jpg",
+                "./assets/images/mockups/summer-snapchats-image-3.png",
+                "./assets/images/mockups/summer-snapchats-image-4.png",
+                "./assets/images/mockups/summer-snapchats-image-5.png",
+                "./assets/images/mockups/summer-snapchats-image-6.png",
+                "./assets/images/mockups/summer-snapchats-image-7.jpg",
+                "./assets/images/mockups/summer-snapchats-image-8.jpg"
+            ],
+            "metadata": {
+                "gridColumns": 2
+            }
+        },
+        {
+            "id": 4,
+            "title": "Spring '23 Collection: The Spring Break Drop",
+            "date": "2023/2/23",
+            "heroImage": "./assets/images/mockups/spring-expansion-drop-image-hero.png",
+            "category": "Collection",
+            "text": "Get ready for the new season with our Spring Break Drop from the Spring '23 Collection. This limited-time release is full of swimwear and other pieces perfect for the upbeat energy of spring break. Dive in to see what we've got in store!",
+            "images": [
+                "./assets/images/mockups/spring-expansion-drop-image-1.png",
+                "./assets/images/mockups/spring-expansion-drop-image-2.png",
+                "./assets/images/mockups/spring-expansion-drop-image-3.png",
+                "./assets/images/mockups/spring-expansion-drop-image-4.png",
+                "./assets/images/mockups/spring-expansion-drop-image-5.png",
+                "./assets/images/mockups/spring-expansion-drop-image-6.png"
+            ],
+            "metadata": {
+                "gridColumns": 2
+            }
+        },
+        {
+            "id": 5,
+            "title": "Inspired by Images: The Visual Roots of Our Collection",
+            "date": "2023/02/15",
+            "category": "Preview",
+            "text": "Go behind the scenes and see the images that inspired our collections. This collection of images works like a moodboard, showing the colors, textures, and visuals that shape our designs. Get a sense of the creative inspiration that drives our brand.",
+            "images": [
+                "./assets/images/mockups/visual-roots-image-1.jpg",
+                "./assets/images/mockups/visual-roots-image-2.jpg",
+                "./assets/images/mockups/visual-roots-image-3.jpg",
+                "./assets/images/mockups/visual-roots-image-4.jpg",
+                "./assets/images/mockups/visual-roots-image-5.jpg",
+                "./assets/images/mockups/visual-roots-image-6.jpg",
+                "./assets/images/mockups/visual-roots-image-7.jpg",
+                "./assets/images/mockups/visual-roots-image-8.jpg"
+            ],
+            "metadata": {
+                "gridColumns": 2
+            }
+        }
+    ]
+}

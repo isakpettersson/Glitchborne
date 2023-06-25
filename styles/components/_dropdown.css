@@ -1,0 +1,55 @@
+.dropdown {
+    position: absolute;
+    top: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100vw;
+    padding: 40px;
+
+    background-color: white;
+    border-top: var(--color-light) 1px solid;
+    border-bottom: var(--color-light) 1px solid;
+
+    transition: opacity 0s ease, visibility 0s;
+
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown__section {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.dropdown__list {
+    gap: var(--spacing-1);
+}
+
+.dropdown__list a:hover {
+    opacity: 0.5;
+}
+
+.dropdown__section-header {
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-small);
+    font-weight: bold;
+}
+
+.dropdown__section--showcase {
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+
+.dropdown__grid--showcase {
+    grid-gap: 16px;
+}
+
+.dropdown__lookbook-link img {
+    max-height: 400px;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+}

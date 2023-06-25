@@ -1,0 +1,43 @@
+.contact__info-accordions {
+    border-top: var(--color-light) 1px solid;
+}
+
+.contact__form-section,
+.contact__info-section {
+    padding: 40px;
+    gap: var(--spacing-4);
+}
+
+.contact__form input,
+.contact__form textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 16px;
+    border: none;
+    font-size: 12px;
+    border-bottom: var(--color-light) 1px solid;
+}
+
+.contact__form input:focus,
+.contact__form textarea:focus {
+    outline: none;
+    border-bottom: var(--color-black) 1px solid;
+}
+
+.contact__form input::placeholder,
+.contact__form textarea::placeholder {
+    opacity: 0.7;
+}
+
+.contact__form-heading,
+.contact__info-heading {
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 480px) {
+    .contact__form-section,
+    .contact__info-section {
+        padding: 24px;
+    }
+}
