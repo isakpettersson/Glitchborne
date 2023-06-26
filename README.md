@@ -62,6 +62,27 @@ Till exempel:
 <link rel="stylesheet" href="../styles/pages/contact.css" />
 ```
 
+`main.css`:
+```
+@import "base/_global.css";
+@import "base/_layout.css";
+@import "base/_reset.css";
+@import "base/_typography.css";
+@import "base/_variables.css";
+@import "base/_sizing.css";
+
+@import "./components/_buttons.css";
+@import "./components/_navigation.css";
+@import "./components/_accordion.css";
+@import "./components/_footer.css";
+@import "./components/_cart-pane.css";
+@import "./components/_menu-pane.css";
+@import "./components/_dropdown.css";
+@import "./components/_hyperlinks.css";
+@import "./components/_size-table.css";
+@import "./components/_size-selector.css";
+```
+
 # Javascript Funktionalitet Documentation
 
 ## main.js
