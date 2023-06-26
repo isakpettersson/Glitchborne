@@ -1,6 +1,6 @@
 .info {
     position: relative;
-    padding: 40px;
+    padding: var(--spacing-6);
 }
 
 .info__details {
@@ -21,6 +21,6 @@
 
 @media screen and (max-width: 480px) {
     .info {
-        padding: 24px;
+        padding: var(--spacing-5);
     }
 }

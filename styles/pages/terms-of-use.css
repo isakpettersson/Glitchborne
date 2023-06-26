@@ -1,6 +1,6 @@
 .info {
     position: relative;
-    padding: 40px;
+    padding: var(--spacing-6);
 }
 
 .info__details {
@@ -8,7 +8,7 @@
 }
 
 .info__details p {
-    font-size: 12px;
+    font-size: var(--font-size-body);
 }
 .info__title {
     text-transform: uppercase;
@@ -22,11 +22,11 @@
     border-top: var(--color-light) 1px solid;
 }
 .accordion__content p {
-    font-size: 12px;
+    font-size: var(--spacing-3);
     line-height: 1.4;
 }
 .accordion__content ul {
-    padding-left: 24px;
+    padding-left: var(--spacing-5);
     list-style: initial;
     line-height: 1.4;
 }

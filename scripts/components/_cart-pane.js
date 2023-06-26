@@ -2,7 +2,18 @@ const cartPane = document.querySelector(".cart-pane");
 const overlay = document.querySelector(".overlay");
 let body = document.querySelector("body");
 
-function _openCartPane() {
+
+function _toggleCartPane() {
+    const cartPaneWidth = parseInt(cartPane.style.width);
+
+    if (cartPaneWidth > 0) {
+	    cartPane.style.width = "0";
+	    overlay.style.display = "none";
+
+	    body.style.overflow = "auto";
+        return;
+    }
+	
     overlay.style.display = "block";
 
     // this disables scrolling while having the cart pane open
@@ -15,24 +26,6 @@ function _openCartPane() {
     }
 
     cartPane.style.width = "100%";
-}
-
-function _closeCartPane() {
-    cartPane.style.width = "0";
-    overlay.style.display = "none";
-
-    body.style.overflow = "auto";
-}
-
-function _toggleCartPane() {
-    console.log("dflskjf");
-    const cartPaneWidth = parseInt(cartPane.style.width);
-
-    if (cartPaneWidth > 0) {
-        _closeCartPane();
-        return;
-    }
-    _openCartPane();
 }
 
 function _updateCartPane() {
@@ -50,7 +43,6 @@ function _updateCartPane() {
 
 function init() {
     const toggleButtons = document.querySelectorAll(".cart-pane__toggle");
-    console.log(toggleButtons);
 
     // adding event listner to all the elements that have the class cart-pane__toggle
     toggleButtons.forEach((button) => {
@@ -58,7 +50,11 @@ function init() {
     });
 
     // put a event listen on the overlay to make it easier because the overlay will have a display none anyways
-    overlay.addEventListener("click", _closeCartPane);
+    overlay.addEventListener("click", () => {
+	    cartPane.style.width = "0";
+	    overlay.style.display = "none";
+	    body.style.overflow = "auto";
+    });
 
     _updateCartPane();
 

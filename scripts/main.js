@@ -3,7 +3,15 @@ import * as menuPane from "./components/_menu-pane.js";
 import * as accordion from "./components/_accordion.js";
 import * as cartPane from "./components/_cart-pane.js";
 
+function applyMarginMain() {
+	const headerHeight = document.querySelector("header").offsetHeight;
+	document.querySelector("main").style['margin-top'] = `${headerHeight}px`
+}
+
+window.addEventListener("resize", applyMarginMain)
+
 window.addEventListener("DOMContentLoaded", async (event) => {
+	applyMarginMain();
     dropdown.init();
     menuPane.init();
     accordion.init();

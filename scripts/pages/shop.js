@@ -6,12 +6,15 @@ window.addEventListener("DOMContentLoaded", async () => {
         const productQueryInfo = document.querySelector(
             ".product-query-info h3"
         );
+        const productQueryInfoNr = document.querySelector(
+            ".product-query-info p"
+        );
         // Get both the collectio nand the category params
         const urlParams = new URLSearchParams(window.location.search);
         const categoryParam = urlParams.get("category");
         const collectionParam = urlParams.get("collection");
 
-        const validCategories = [
+        const orderedCategories = [
             "shirts",
             "tees",
             "hoodies",
@@ -21,12 +24,6 @@ window.addEventListener("DOMContentLoaded", async () => {
             "hats",
             "bags",
             "socks",
-        ];
-        const validCollections = [
-            "signature",
-            "spring-2023",
-            "summer-2023",
-            "cosmic",
         ];
 
         // mapping the identifier names to the actual names that should be printed
@@ -44,13 +41,13 @@ window.addEventListener("DOMContentLoaded", async () => {
             // sorting the products by the index of their category before filtering.
             let filteredProducts = data.products.sort((a, b) => {
                 return (
-                    validCategories.indexOf(a.category) -
-                    validCategories.indexOf(b.category)
+                    orderedCategories.indexOf(a.category) -
+                    orderedCategories.indexOf(b.category)
                 );
             });
 
             // for both collection and category we check if a param was provided and also check if the param is valid, if so we filter the products and reasign it to filtered prodcuts
-            if (categoryParam && validCategories.includes(categoryParam)) {
+            if (categoryParam) {
                 filteredProducts = filteredProducts.filter(
                     (product) => product.category === categoryParam
                 );
@@ -58,11 +55,16 @@ window.addEventListener("DOMContentLoaded", async () => {
                 productQueryInfo.textContent = categoryParam;
             }
 
-            if (collectionParam && validCollections.includes(collectionParam)) {
+            if (collectionParam) {
                 filteredProducts = filteredProducts.filter(
                     (product) => product.collection === collectionParam
                 );
-                productQueryInfo.textContent += ` (${collectionMap[collectionParam]})`;
+
+                if (!categoryParam) {
+                    productQueryInfo.textContent = `${collectionMap[collectionParam]}`;
+                } else {
+                    productQueryInfo.textContent += ` (${collectionMap[collectionParam]})`;
+                }
             }
 
             if (filteredProducts.length === 0) {
@@ -72,6 +74,8 @@ window.addEventListener("DOMContentLoaded", async () => {
                     </div>`;
                 return;
             }
+
+            productQueryInfoNr.textContent = `${filteredProducts.length} Products`;
 
             const html = filteredProducts
                 .map(
@@ -93,11 +97,13 @@ window.addEventListener("DOMContentLoaded", async () => {
                         }">
                             <div class="product-item__container column">
                                 <a class="product-item__image-link" href="./product.html?id=${id}">
-                                    <img
-                                        class="product-item__image"
-                                        src="${images[0]}"
-                                        alt="Product 2"
-                                    />
+                                    <div class="product-item__image-container">
+                                        <img
+                                            class="product-item__image"
+                                            src="${images[0]}"
+                                            alt="Product 2"
+                                        />
+                                    </div>
                                 </a>
                                 <div class="product-item__info column">
                                     <!-- <p class="product-item__collection">${collection}</p> -->

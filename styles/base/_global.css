@@ -3,8 +3,6 @@ body {
     flex-direction: column;
     color: var(--color-black);
     background-color: var(--color-white);
-    font-size: var(--font-size-body);
-    line-height: var(--line-height-body);
     min-height: 100vh;
 }
 
@@ -19,6 +17,14 @@ main {
     margin-top: 82px;
     flex: 1 0 auto;
 }
+
+@media screen and (max-width: 480px) {
+    main {
+        margin-top: 66px;
+    }
+}
+
+
 
 .site-header {
     max-width: 1200px;
@@ -42,13 +48,12 @@ footer {
 }
 
 @media screen and (max-width: 480px) {
+	
     .error h1 {
         font-size: 120px;
         padding: 80px 0;
     }
-    main {
-        margin-top: 58px;
-    }
+
 }
 a {
     color: var(--color-black);

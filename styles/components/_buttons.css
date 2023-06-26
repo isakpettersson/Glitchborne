@@ -1,9 +1,9 @@
 .button {
     text-align: center;
     color: #ffffff;
-    font-size: 14px;
-    font-weight: 400;
-    padding: 12px 24px;
+    font-size: var(--font-size-button);
+    font-weight: 300;
+    padding: var(--spacing-3) var(--spacing-5);
     border: none;
     cursor: pointer;
     transition: background-color 0.2s ease, transform 0.1s ease;
@@ -44,12 +44,3 @@
     transform: scale(0.95);
 }
 
-.button--small {
-    padding: 8px 16px;
-    font-size: 14px;
-}
-
-.button--large {
-    padding: 16px 32px;
-    font-size: 18px;
-}

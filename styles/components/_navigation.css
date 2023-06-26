@@ -10,16 +10,10 @@
 .site-header__logo img {
     height: 100%;
     max-height: 48px;
+
 }
 
-.site-header__nav-container {
-}
 
-@media screen and (max-width: 768px) {
-    .site-header__nav-container {
-        display: none;
-    }
-}
 
 .site-header__nav-link {
     position: relative;
@@ -47,7 +41,7 @@
 }
 
 .site-header__nav-link:hover::after {
-    height: 4px;
+    height: var(--spacing-1);
 }
 
 .site-header__icons {
@@ -82,10 +76,14 @@
 .site-header__menu-filler {
     padding: 0 var(--spacing-4);
     opacity: 0;
-    visibility: 0;
+    visibility: hidden;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
+	
+    .site-header__nav-container {
+        display: none;
+    }
     .site-header__account--mobile {
         display: block;
     }
@@ -113,7 +111,7 @@
     }
 
     .site-header__menu--mobile {
-        padding: 0 var(--spacing-2);
+        padding: 0 var(--spacing-2) 0 0;
     }
 
     .site-header__account {

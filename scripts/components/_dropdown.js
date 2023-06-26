@@ -13,11 +13,9 @@ function init() {
     const dropdown = document.querySelector(".dropdown");
     const origin = document.querySelector(".site-header__nav-expandable");
 
-    if (dropdown && origin) {
-        // This has to run on init as well because we have to center the dropdown initally otherwise it will does be centered until the user resizes the screen
-        _recenterDropdownOnResize();
-        window.addEventListener("resize", _recenterDropdownOnResize);
-    }
+    // This has to run on init as well because we have to center the dropdown initally otherwise it will does be centered until the user resizes the screen
+    _recenterDropdownOnResize();
+    window.addEventListener("resize", _recenterDropdownOnResize);
 }
 
 export { init };

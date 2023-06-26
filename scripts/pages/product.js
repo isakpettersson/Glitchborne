@@ -35,14 +35,19 @@ window.addEventListener("DOMContentLoaded", async () => {
                 details,
             } = product;
 
+            document.title = `${name} - Glitchborne Groove`;
+            document
+                .querySelector('meta[name="description"]')
+                .setAttribute("content", description);
+
             main.innerHTML = `
                 <div class="product grid-two-col">
-                    <div class="product__image-container column">
+                    <div class="product__image-container">
                         ${images.reduce(
                             (acc, cur) =>
                                 acc +
                                 `
-                        <img class="product__image" src="../${cur}" alt="Product image" />
+                        <div class="product__image-wrapper"><img class="product__image" src="../${cur}" alt="Product image" /></div>
                         `,
                             ""
                         )}
@@ -89,7 +94,7 @@ window.addEventListener("DOMContentLoaded", async () => {
                             <div class="product__accordian-wrapper">
                                 <div class="product__accordion accordion accordion--open">
                                     <div class="accordion__header">
-                                        <a class="accordion__title" href="#">Product details</a>
+                                        <p class="accordion__title">Product details</p>
                                         <img
                                             src="../assets/icons/right-chevron.svg"
                                             alt="Right pointing chevron"
@@ -106,10 +111,9 @@ window.addEventListener("DOMContentLoaded", async () => {
                                 </div>
                                 <div class="product__accordion accordion">
                                     <div class="accordion__header">
-                                        <a
+                                        <p
                                             class="accordion__title"
-                                            href="../../pages/refund.html"
-                                            >Shipping and returns</a
+                                            >Shipping and returns</p
                                         >
                                         <img
                                             src="../assets/icons/right-chevron.svg"
@@ -119,7 +123,7 @@ window.addEventListener("DOMContentLoaded", async () => {
                                         />
                                     </div>
                                     <div class="accordion__body">
-                                        <div class="accordion__content column">
+                                        <div class="accordion__content">
                                             <strong>Returns</strong>
                                             <p>
                                                 Our refund policy is 15 Days. Unfortunately we
@@ -205,7 +209,7 @@ window.addEventListener("DOMContentLoaded", async () => {
                                         ? `
                                 <div class="product__accordion accordion">
                                     <div class="accordion__header">
-                                        <a class="accordion__title" href="#">Sizing Guide</a>
+                                        <p class="accordion__title" >Sizing Guide</p>
                                         <img
                                             src="../assets/icons/right-chevron.svg"
                                             alt="Right pointing chevron"
@@ -214,7 +218,7 @@ window.addEventListener("DOMContentLoaded", async () => {
                                         />
                                     </div>
                                     <div class="accordion__body">
-                                        <div class="accordion__content column">
+                                        <div class="accordion__content">
                                             ${
                                                 category.toLowerCase() ===
                                                     "pants" || "shorts"

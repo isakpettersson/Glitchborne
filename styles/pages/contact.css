@@ -4,7 +4,7 @@
 
 .contact__form-section,
 .contact__info-section {
-    padding: 40px;
+    padding: var(--spacing-6);
     gap: var(--spacing-4);
 }
 
@@ -12,10 +12,10 @@
 .contact__form textarea {
     box-sizing: border-box;
     width: 100%;
-    padding: 12px 0;
-    margin-bottom: 16px;
+    padding: var(--spacing-3) 0;
+    margin-bottom: var(--spacing-4);
     border: none;
-    font-size: 12px;
+    font-size: var(--spacing-3);
     border-bottom: var(--color-light) 1px solid;
 }
 
@@ -38,6 +38,6 @@
 @media screen and (max-width: 480px) {
     .contact__form-section,
     .contact__info-section {
-        padding: 24px;
+        padding: var(--spacing-5);
     }
 }

@@ -7,7 +7,7 @@
 }
 
 .login__container {
-    padding: 40px;
+    padding: var(--spacing-6);
     width: 100%;
     gap: 16px;
 }
@@ -18,8 +18,8 @@
 }
 
 .login__links {
-    padding: 16px;
-    gap: 8px;
+    padding: var(--spacing-4);
+    gap: var(--spacing-2);
 }
 .login__links a {
     opacity: 0.5;
@@ -34,10 +34,10 @@
 
     box-sizing: border-box;
     width: 100%;
-    padding: 12px 0;
-    margin-bottom: 16px;
+    padding: var(--spacing-3) 0;
+    margin-bottom: var(--spacing-4);
     border: none;
-    font-size: 12px;
+    font-size: var(--font-size-small);
     border-bottom: var(--color-light) 1px solid;
 }
 

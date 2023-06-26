@@ -32,6 +32,11 @@ window.addEventListener("DOMContentLoaded", async () => {
                 metadata: { gridColumns },
             } = article;
 
+            document.title = `${title} - Glitchborne Groove`;
+            document
+                .querySelector('meta[name="description"]')
+                .setAttribute("content", text);
+
             // Using template literals to insert the article
             main.innerHTML = `
                 <article class="article">
@@ -44,7 +49,7 @@ window.addEventListener("DOMContentLoaded", async () => {
                         </div>
                         ${
                             heroImage
-                                ? `<img class="article__hero-image" src="../${heroImage}" alt="Article hero image" />`
+                                ? `<div class="article__hero-image-container"><img class="article__hero-image" src="../${heroImage}" alt="Article hero image" /></div>`
                                 : ""
                         }
                         <div class="article__text"><small>${text}</small></div>
@@ -53,7 +58,7 @@ window.addEventListener("DOMContentLoaded", async () => {
                                 (acc, cur) =>
                                     acc +
                                     `
-                                <img class="article__grid-image" src="../${cur}" alt="Article image" />
+                                <div class="article__image-container"><img class="article__grid-image" src="../${cur}" alt="Article image" /></div>
                             `,
                                 ""
                             )}
