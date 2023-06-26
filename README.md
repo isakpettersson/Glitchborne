@@ -135,8 +135,6 @@ Uppdaterar bredden på kundvagnspanelen beroende på skärmstorleken, endast om 
 Initierar händelselyssnare på elementet som har klassen cart-pane__toggle, och en händelselyssnare för att uppdatera kundvagnspanelen vid skärmstorleksändring.
 
 ```
-const cartPane = document.querySelector(".cart-pane");
-
 function _toggleCartPane() { ... }
 
 function _updateCartPane() { ... }
@@ -170,8 +168,6 @@ Justerar menyns position på sidan baserat på höjden av sidhuvudet.
 Initerar händelselyssnare för att uppdatera menyn och ändra dess position.
 
 ```
-let menuPane = document.querySelector(".menu-pane");
-
 function _toggleMenuPane() { ... }
 
 function _updateMenuPane() { ... }
