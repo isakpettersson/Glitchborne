@@ -2,19 +2,16 @@ window.addEventListener("DOMContentLoaded", async () => {
     try {
         const main = document.querySelector(".main-content");
 
-        // Get the id for the article
         const id = Number(
             new URLSearchParams(window.location.search).get("id")
         );
 
-        // Fetch all the articlcs
         const response = await fetch("../../data/articles.json");
         const { articles } = await response.json();
 
         if (articles) {
             const article = articles.find((article) => article.id === id);
 
-            // If the articles does not exist return error page
             if (!article) {
                 main.innerHTML = `
                     <div class="error">
@@ -37,7 +34,6 @@ window.addEventListener("DOMContentLoaded", async () => {
                 .querySelector('meta[name="description"]')
                 .setAttribute("content", text);
 
-            // Using template literals to insert the article
             main.innerHTML = `
                 <article class="article">
                     <div class="article__container column">

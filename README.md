@@ -36,7 +36,6 @@ NOTE: Webbplatsen använder fetch för att ladda data och det rekommenderas att 
 Mappen `assets` innehåller alla tillgångar som projektet använder. 
 
 - `brand` mappen innehåller varumärkesspecifika tillgångar som logotyp och logotypmärke. 
-- `designs` mappen innehåller kläddesigner. 
 - `icons` mappen inkluderar alla nödvändiga ikoner och är importerad från svgREPO, en webbplats där du kan ladda ner ikoner och SVG-filer gratis. 
 - `images` mappen innehåller både alla bilder för innehållet och mockups för produkterna.
 
@@ -83,7 +82,7 @@ Till exempel:
 @import "./components/_size-selector.css";
 ```
 
-# Javascript Funktionalitet Documentation
+# Javascript documentation
 
 ## main.js
 `main.js` är den primära JavaScript-filen som importeras till varje sida. Den ansvarar för att hantera globala händelser och importera komponenter.
